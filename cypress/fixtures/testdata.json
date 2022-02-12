@@ -1,0 +1,8 @@
+{
+  "name": "Shrikant",
+  "password": "testpassword",
+  "successMsg": "Check your email",
+  "emailErrMsg": "Enter your email address.",
+  "passErrMsg": "Enter your password.",
+  "termsErrMsg": "Please agree with the Terms to sign up."
+}

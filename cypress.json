@@ -1,0 +1,7 @@
+{
+  "projectId": "wp7ypn",
+  "reporter": "mochawesome",
+  "env": {
+    "url": "https://miro.com/"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "miro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "execute_all": "node_modules\\.bin\\cypress run",
+    "headMode": "npm run execute_all -- --headed",
+    "chromeTest": "npm run execute_all -- --browser chrome",
+    "parallelRun": "npm run execute_all -- --browser chrome --parallel",
+    "recordDashboardTest": "npm run execute_all -- --record --key af58abc1-3d54-4480-8988-03783009b593"
+  },
+  "author": "Shrikant Firodiya",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.10.3",
+    "cypress": "^9.4.1",
+    "mocha": "^9.2.0",
+    "mochawesome": "^7.0.1",
+    "typescript": "^4.5.5"
+  }
+}
